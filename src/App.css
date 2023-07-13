@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.services-card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid grey;
+}
